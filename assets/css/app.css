@@ -1,0 +1,66 @@
+
+
+a {
+    text-decoration: none;
+    color: var(--bs-blue);
+    transition: all 0.4s ease-in-out;
+}
+
+a:hover {
+    color: var(--bs-purple);
+}
+
+
+
+/* Navbar */
+.navbar{
+    --bs-navbar-nav-link-padding-x: 1.2rem;
+}
+
+.navbar img:hover{
+    height: 50px;
+    width: 30px;
+}
+
+/* Bg */
+.bg-2{
+    background-color: #121212;
+}
+
+
+/* Border Custom*/
+.border-custom{
+    border:1px solid  #444 ;
+    transition: all 0.4s ease-in-out;
+}
+
+.border-custom:hover{
+    border-color: var(--bs-blue);
+}
+
+
+
+/* Btns */
+.btn{
+    border-radius: 0;
+    padding: 10px 20px;
+}
+
+
+
+/* Service */
+.icon{
+    width: 60px;
+    height: 60px;
+    background-color: #555;
+    display: grid;
+    align-content: center;
+    text-align: center;
+    font-size: 32px;
+    color: white;
+    transition: all 0.4s ease-in-out;
+}
+
+.service:hover .icon{
+    background-color: var(--bs-blue);
+}
